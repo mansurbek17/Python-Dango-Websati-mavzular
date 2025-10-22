@@ -16,7 +16,7 @@
 
 # 1. Mutable obyektlar
 # O‘zgaruvchan obyektlar bo‘lib, ularning qiymatini joyida (in-place) o‘zgartirish mumkin.
-# Bu obyektlarga xotirada bir xil manzil saqlangan holda o‘zgarish kiritiladi.
+# Bu obyektlarga xotirada bir xil manzil saqlangan holda o‘zgari    sh kiritiladi.
 # Asosan, ro‘yxatlar (lists), lug‘atlar (dictionaries), va to‘plamlar (sets)
 # o‘zgaruvchan obyektlardir.
 

@@ -15,7 +15,18 @@ from turtledemo.penrose import start
 #
 # yangi funksiya qaytaradi va asl funksiyani shu yangi funksiya bilan almashtiradi.
 
+def decorator(func):
+    def wrapper():
+        print("Funksiya bajarilishidan oldin")
+        func
+        print("Funksiya bajarilishidan keyin")
+    return wrapper
 
+@decorator
+def salom_ber():
+    print("Salom!")
+
+salom_ber()
 # def decorator(func):
 #     def wrapper():
 #         print("Funksiya bajarilishidan oldin")
@@ -48,3 +59,22 @@ from turtledemo.penrose import start
 #     print(c)
 #
 # sanab_ber()
+
+
+
+
+
+def deca(func):
+    def salom():
+        print("Salom1")
+        func()
+        print("Salom1")
+
+    return salom
+
+@deca
+def salom_ber():
+    print("ASSSALOM ALEYKUM")
+
+salom_ber()
+  
